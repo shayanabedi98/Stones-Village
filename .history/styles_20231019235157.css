@@ -1,0 +1,71 @@
+body {
+    background-color: #282526;
+    color: #FFFFFE;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1D1F1F;
+    box-shadow: 0 0 5px 0 rgb(82, 82, 82);
+    padding: 10px;
+}
+
+.logo {
+    display: grid;
+    justify-items: center;
+}
+
+.logo img {
+    height: 120px;
+    box-shadow: 0 0 1px 0 white;
+}
+
+.navbar-menu {
+    display: grid;
+    align-items: end;
+}
+
+.navbar-menu ul {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #FFFFFE;
+}
+
+.banner {
+    background: url(./resources/aaron-huber-G7sE2S4Lab4-unsplash.jpg);
+    height: 830px;
+    background-size: cover;
+    background-position: 0 -400px;
+}
+
+.banner-overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: grid;
+    grid-template-rows: 1fr 0.3fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.banner-overlay h1 {
+    margin: 0;
+}
+
+.banner-overlay button {
+    font-family: 'Raleway', sans-serif;
+    background-color: #FFFFFE;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 2px;
+}

@@ -1,0 +1,15 @@
+body {
+    background-color: #282526;
+    color: #FFFFFE;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo img {
+    height: 150px;
+    border: 3px solid white;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #FFFFFE;
+}

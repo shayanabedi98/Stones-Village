@@ -1,0 +1,9 @@
+body {
+    background-color: #282526;
+    color: #FFFFFE;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #FFFFFE;
+}

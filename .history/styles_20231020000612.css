@@ -1,0 +1,95 @@
+body {
+    background-color: #282526;
+    color: #FFFFFE;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1D1F1F;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    display: grid;
+    justify-items: center;
+}
+
+.logo img {
+    height: 120px;
+    box-shadow: 0 0 1px 0 white;
+}
+
+.navbar-menu {
+    display: grid;
+    align-items: end;
+}
+
+.navbar-menu ul {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #FFFFFE;
+    font-size: 20px;
+}
+
+.navbar-menu a:hover {
+    color: #bdbdbd;
+    transition: 0.3s;
+}
+
+.navbar-menu a:not(:hover) {
+    color: #FFFFFE;
+    transition: 0.3s;
+}
+
+.banner {
+    background: url(./resources/aaron-huber-G7sE2S4Lab4-unsplash.jpg);
+    height: 100vh;
+    background-size: 2100px;
+    background-repeat: no-repeat;
+    background-position: 0 -400px;
+}
+
+.banner-overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: grid;
+    grid-template-rows: 0.3fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.banner-overlay h1 {
+    margin: 0;
+    position: relative;
+    top: 200px;
+}
+
+.banner-overlay button {
+    font-family: 'Raleway', sans-serif;
+    background-color: #FFFFFE;
+    border: none;
+    font-size: 20px;
+    width: 140px;
+    height: 50px;
+    border-radius: 2px;
+    box-shadow: 0 0 8px 0 black;
+    cursor: pointer;
+}
+
+.banner-overlay button:hover {
+    box-shadow: none;
+    transition: 0.3s;
+}

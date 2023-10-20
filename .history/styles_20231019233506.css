@@ -1,0 +1,33 @@
+body {
+    background-color: #282526;
+    color: #FFFFFE;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1D1F1F;
+}
+
+.logo {
+    display: grid;
+    justify-items: center;
+}
+
+.logo img {
+    height: 150px;
+    border: 3px solid white;
+}
+
+.navbar-menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #FFFFFE;
+}
