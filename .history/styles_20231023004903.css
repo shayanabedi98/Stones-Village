@@ -331,18 +331,6 @@ footer p {
     color: white;
 }
 
-.contact-container h1, .contact-container h2, .contact-container h3 {
-    font-weight: 200;
-    letter-spacing: 3px;
-    line-height: 35px;
-}
-
-.contact-container h3 a {
-    color:#E0B739;
-    text-decoration: none;
-    
-}
-
 .contact-banner {
     background: url('./resources/scott-webb-qauaqihMwpc-unsplash.jpg');
     height: 100vh;
@@ -361,7 +349,7 @@ footer p {
     height: 100vh;
     width: 100%;
     top: 0;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .contact-form {
@@ -370,11 +358,10 @@ footer p {
     justify-content: center;
 }
 
-/* .contact-image img{
+.contact-image img{
     border-radius: 10px;
-    height: 300px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-} */
+    height: 500px;
+}
 
 #input-name, #input-email, #input-msg {
     border-radius: 2px;
@@ -383,32 +370,14 @@ footer p {
     letter-spacing: 4px;
     border: none;
     font-family: 'Raleway', sans-serif;
-    padding: 10px;
+    padding: 5px;
     margin: 30px auto;
-    width: 400px;
+    width: 300px;
     resize: none;
 }
 
 .contact-form button {
-    width: 150px;
-    height: 40px;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    cursor: pointer;
-    border: none;
-    border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
 
-.contact-form button:hover {
-    box-shadow: 0 0 15px 0 black;
-    background-color: rgb(224, 183, 57);
-    transition: 0.3s;
-}
-
-.contact-form button:not(:hover) {
-    box-shadow: 0 0 5px 0 black;
-    transition: 0.3s;
 }
 
 #input-name:focus, #input-msg:focus, #input-email:focus {
@@ -417,7 +386,5 @@ footer p {
 
 footer.contact {
     margin: 0;
-    background-color: #000000;
+    background: linear-gradient(rgb(27, 27, 27) 60%, rgb(61, 61, 61));
 }
-
-/* End of Contact */

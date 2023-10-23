@@ -327,97 +327,9 @@ footer p {
 
 /* End of Home */
 
-.contact-container {
-    color: white;
-}
-
-.contact-container h1, .contact-container h2, .contact-container h3 {
-    font-weight: 200;
-    letter-spacing: 3px;
-    line-height: 35px;
-}
-
-.contact-container h3 a {
-    color:#E0B739;
-    text-decoration: none;
-    
-}
-
 .contact-banner {
-    background: url('./resources/scott-webb-qauaqihMwpc-unsplash.jpg');
+    background: url('./resources/inventory/inventory-jpg/Onyx/SR-1.jpg');
     height: 100vh;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
-
-.contact-banner-overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 10px 0 black;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    top: 0;
-    grid-template-columns: 1fr;
-}
-
-.contact-form {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-}
-
-/* .contact-image img{
-    border-radius: 10px;
-    height: 300px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-} */
-
-#input-name, #input-email, #input-msg {
-    border-radius: 2px;
-    display: block;
-    font-size: 18px;
-    letter-spacing: 4px;
-    border: none;
-    font-family: 'Raleway', sans-serif;
-    padding: 10px;
-    margin: 30px auto;
-    width: 400px;
-    resize: none;
-}
-
-.contact-form button {
-    width: 150px;
-    height: 40px;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    cursor: pointer;
-    border: none;
-    border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.contact-form button:hover {
-    box-shadow: 0 0 15px 0 black;
-    background-color: rgb(224, 183, 57);
-    transition: 0.3s;
-}
-
-.contact-form button:not(:hover) {
-    box-shadow: 0 0 5px 0 black;
-    transition: 0.3s;
-}
-
-#input-name:focus, #input-msg:focus, #input-email:focus {
-    background-color: #ffedb5;
-}
-
-footer.contact {
-    margin: 0;
-    background-color: #000000;
-}
-
-/* End of Contact */
