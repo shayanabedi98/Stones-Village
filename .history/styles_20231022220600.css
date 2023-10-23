@@ -6,17 +6,12 @@ body {
     padding: 0;
 }
 
-*::selection {
-    background-color: #E0B739;
-    color: #ffffff;
-}
-
 hr {
     width: 80%;
     margin: 60px auto;
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(161, 161, 161, 0.2), rgba(0, 0, 0, 0.5), rgba(158, 158, 158, 0.2));
+    background-image: linear-gradient(to right, rgba(255, 206, 45, 0.856), rgba(216, 206, 59, 0.75), rgba(0, 0, 0, 0.2));
 }
 
 .navbar {
@@ -172,12 +167,6 @@ hr {
     transition: 0.3s;
 }
 
-.title {
-    font-weight: 300 !important;
-    letter-spacing: 5px;
-    font-size: 24px;
-}
-
 .card-container, .summary-container, .card-title, .example-container {
     margin: 40px auto;
 }
@@ -185,6 +174,8 @@ hr {
 .card-title {
     display: grid;
     width: 72%;
+    font-weight: 600;
+    font-size: 24px;
     height: 20px;
     margin-top: 70px;
 }
@@ -224,7 +215,6 @@ hr {
 
 .card-description {
     width: 75%;
-    line-height: 30px;
 }
 
 .summary-container {
@@ -237,10 +227,12 @@ hr {
     width: 100%;
     line-height: 40px;
     display: grid;
+
 }
 
 .summary-text h2 {
     margin-top: 0;
+    text-decoration: underline;
 }
 
 .summary-image{
@@ -261,66 +253,10 @@ hr {
     width: 72%;
 }
 
-.example-content {
-    display: grid;
-}
-
-.example-content p{
+.example-content h3{
     font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 50px;
+    font-size: 24px;
     height: 20px;
-}
-
-.example-pictures {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    width: 400px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 8px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
-
-.example-pictures img {
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-}
-
-.example-description {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-}
-
-.example-description p {
-    line-height: 40px;
-}
-
-#example-instagram, #example-contact {
-    width: 200px;
-    height: 50px;
-    border: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-footer {
-    background-color: rgba(29, 31, 31, 0.7);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-top: 180px;
-}
-
-footer .navbar-menu a {
-    font-size: 14px;
-}
-
-footer p {
-    text-align: center;
-    color: #FFFFFE;
-    font-weight: 100;
-    font-size: 10px;
-    margin-top: 20px;
+    margin-top: 70px;
+    text-decoration: underline;
 }

@@ -6,11 +6,6 @@ body {
     padding: 0;
 }
 
-*::selection {
-    background-color: #E0B739;
-    color: #ffffff;
-}
-
 hr {
     width: 80%;
     margin: 60px auto;
@@ -224,7 +219,6 @@ hr {
 
 .card-description {
     width: 75%;
-    line-height: 30px;
 }
 
 .summary-container {
@@ -277,50 +271,19 @@ hr {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     width: 400px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 8px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .example-pictures img {
     height: 200px;
     width: 200px;
-    object-fit: cover;
 }
 
 .example-description {
     display: grid;
     align-items: center;
-    justify-items: center;
 }
 
 .example-description p {
     line-height: 40px;
-}
-
-#example-instagram, #example-contact {
-    width: 200px;
-    height: 50px;
-    border: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-footer {
-    background-color: rgba(29, 31, 31, 0.7);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-top: 180px;
-}
-
-footer .navbar-menu a {
-    font-size: 14px;
-}
-
-footer p {
-    text-align: center;
-    color: #FFFFFE;
-    font-weight: 100;
-    font-size: 10px;
-    margin-top: 20px;
 }

@@ -7,9 +7,9 @@ body {
 }
 
 *::selection {
-    background-color: #E0B739;
-    color: #ffffff;
-}
+    background-color: #db34cd;
+    color: #ffffff; /* Text color of highlighted text */
+  }
 
 hr {
     width: 80%;

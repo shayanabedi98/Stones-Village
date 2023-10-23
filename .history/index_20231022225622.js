@@ -81,9 +81,5 @@ bannerImgChanger();
 setInterval(bannerImgChanger, 8000)
 
 instagram.addEventListener('click', () => {
-    window.open('https://www.instagram.com/stonesvillage/', '_blank')
-})
-
-contact.addEventListener('click', () => {
-    window.location.replace('./contact')
+    window.location.replace('https://www.instagram.com/stonesvillage/')
 })

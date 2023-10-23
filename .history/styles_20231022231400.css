@@ -9,7 +9,7 @@ body {
 *::selection {
     background-color: #E0B739;
     color: #ffffff;
-}
+  }
 
 hr {
     width: 80%;
