@@ -85,5 +85,5 @@ instagram.addEventListener('click', () => {
 })
 
 contact.addEventListener('click', () => {
-    window.location.href = './contact';
+    window.open('./contact')
 })
