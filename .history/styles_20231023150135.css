@@ -381,7 +381,7 @@ iframe {
 
 #input-name, #input-email, #input-msg {
     border-radius: 2px;
-    display: block;
+
     font-size: 18px;
     letter-spacing: 4px;
     border: none;
