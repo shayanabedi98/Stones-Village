@@ -514,8 +514,12 @@ width: 90%;
 }
 
 .mini-nav {
+}
+
+.mini-nav-buttons {
     position: sticky;
     top: 50px;
+    width: 100%;
     z-index: 5;
 }
 
@@ -538,11 +542,6 @@ width: 90%;
     display: grid;
     justify-items: center;
     text-align: center;
-}
-
-.inventory-showcase h2 {
-    font-weight: 200;
-    letter-spacing: 3px;
 }
 
 .marble, .onyx, .porcelain, .granite, .quartz {

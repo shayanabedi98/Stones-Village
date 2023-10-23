@@ -484,10 +484,6 @@ width: 90%;
 
 /* End of About */
 
-#quartz, #marble, #onyx, #porcelain, #granite {
-    margin-bottom: 150px;
-}
-
 .inventory-body {
     background-color: #bebebe;
 }
@@ -495,6 +491,8 @@ width: 90%;
 .inventory-container {
     display: grid;
     justify-items: center;
+    text-align: center;
+
 }
 
 .inventory-text {
@@ -516,7 +514,7 @@ width: 90%;
 .mini-nav {
     position: sticky;
     top: 50px;
-    z-index: 5;
+    width: 20%;
 }
 
 .mini-nav a button {
@@ -525,24 +523,17 @@ width: 90%;
     border: none;
     font-family: 'Raleway', sans-serif;
     height: 40px;
-    min-width: 80px;
+    width: 80px;
     margin: 50px 15px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 3px;
     font-size: 18px;
-
 }
 
 .inventory-showcase {
     display: grid;
     justify-items: center;
-    text-align: center;
-}
-
-.inventory-showcase h2 {
-    font-weight: 200;
-    letter-spacing: 3px;
 }
 
 .marble, .onyx, .porcelain, .granite, .quartz {
@@ -575,7 +566,6 @@ width: 90%;
     position: relative;
     top: 290px;
     font-size: 20px;
-    z-index: 0;
 }
 
 footer.inventory {
