@@ -9,11 +9,11 @@ const contact = document.querySelector('#example-contact');
 const bannerBtn = document.querySelector('.banner-overlay button');
 
 bannerBtn.addEventListener('click', () => {
-    window.open('./contact');
+     window.location.href = './contact';
 });
 
 logoCube.addEventListener('click', () => {
-    window.location.replace('./')
+    window.location.href = './';
 })
 
 logoCube.addEventListener('mouseover', () => {
@@ -27,7 +27,7 @@ logoCube.addEventListener('mouseout', () => {
 })
 
 logoName.addEventListener('click', () => {
-    window.location.replace('./')
+    window.location.href = './';
 })
 
 logoName.addEventListener('mouseover', () => {
