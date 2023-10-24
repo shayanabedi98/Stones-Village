@@ -5,7 +5,12 @@ const logoName = document.querySelector('#logo-name');
 const logoCube = document.querySelector('#logo-cube');
 const navbar = document.querySelector('.navbar');
 const instagram = document.querySelector('#example-instagram');
-const contact = document.querySelector('#example-contact')
+const contact = document.querySelector('#example-contact');
+const bannerBtn = document.querySelector('.banner-overlay button');
+
+bannerBtn.addEventListener('click', () => {
+    window.open('./contact');
+});
 
 logoCube.addEventListener('click', () => {
     window.location.replace('./')
