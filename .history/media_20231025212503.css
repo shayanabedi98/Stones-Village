@@ -1,0 +1,11 @@
+@media (max-width: 1024px) {
+    /* home */
+
+    .card img {
+        width: 10px
+    }
+
+    .card-description p {
+        font-size: 1px;
+    }
+}

@@ -1,0 +1,15 @@
+@media (max-width: 1024px) {
+    /* home */
+
+    .card {
+        width: 85%;
+    }
+
+    .card img {
+        height: 20%;
+    }
+
+    .card-description p {
+        font-size: 1px;
+    }
+}

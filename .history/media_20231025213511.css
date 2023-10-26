@@ -1,0 +1,29 @@
+@media (max-width: 1024px) {
+    /* home */
+
+    .card-container {
+        width: 95%;
+    }
+
+    .card {
+        width: 85%;
+        height: 90%;
+    }
+
+    .card img {
+        height: 6em;
+    }
+
+    .card-description {
+        font-size: 1em;
+        line-height: 20px;
+    }
+
+    .summary-container {
+        width: 90%;
+    }
+
+    .summary-image img {
+        height: 450px;
+    }
+}
