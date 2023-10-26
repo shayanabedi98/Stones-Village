@@ -9,7 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
     <div class="navbar">
@@ -24,22 +28,43 @@
                 <li><a href="./about-us">About Us</a></li>
                 <li><a href="./contact">Contact</a></li>
             </ul>
+            <div class="phone-menu-button">
+                <img src="./resources/align-justify-svgrepo-com.png" alt="Menu Button">
+            </div>
         </div>
-        <div class="navbar-links">
+        <div class="navbar-menu-mobile">
+            <ul>
+                <li><a href="./">Home</a></li>
+                <li><a href="./inventory">Inventory</a></li>
+                <li><a href="./about-us">About Us</a></li>
+                <li><a href="./contact">Contact</a></li>
+            </ul>
             <button id="tel">
                 <a href="tel:+14372375062">
-                    <img src="./resources/telephone-svgrepo-com.png" alt="Contact By Number">
+                    <img src="./resources/icons8-phone-100.png" alt="Contact By Number">
                 </a>
             </button>
             <button id="instagram">
                 <a target="_blank" href="https://www.instagram.com/stonesvillage/">
-                    <img src="./resources/instagram-svgrepo-com.png" alt="Visit Instagram page">
+                    <img src="./resources/iglogo.png" alt="Visit Instagram page">
+                </a>
+            </button>
+        </div>
+        <div class="navbar-links">
+            <button id="tel">
+                <a href="tel:+14372375062">
+                    <img src="./resources/icons8-phone-100.png" alt="Contact By Number">
+                </a>
+            </button>
+            <button id="instagram">
+                <a target="_blank" href="https://www.instagram.com/stonesvillage/">
+                    <img src="./resources/iglogo.png" alt="Visit Instagram page">
                 </a>
             </button>
         </div>
     </div>
     <div class="grid-container">
-        <div class="banner">
+        <div class="banner1">
             <!-- Background Image -->
         </div>
         <div class="banner-overlay">
@@ -103,8 +128,9 @@
             </div>
             <div class="example-description">
                 <p>Stones Village invites you to our Instagram page, where a portfolio of diverse and transformative projects awaits. Here, you'll find a showcase of our commitment to excellence in stone craftsmanship. Follow us for a steady stream of inspiration, updates, and a glimpse into the artistry that defines every project. Connect with us on Instagram, and start envisioning the possibilities for your own space today!</p>
-                <button id="example-instagram">Instagram</button>
-                <button id="example-contact">Contact</button>
+                <div class="example-description-btn">
+                    <button id="example-instagram"><img src="./resources/Instagram_logo.svg.png" alt=""></button>
+                </div>
             </div>
         </div>
     </div>

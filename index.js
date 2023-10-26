@@ -1,16 +1,17 @@
-const banner = document.querySelector('.banner');
-const bannerImg = ['./resources/aaron-huber-G7sE2S4Lab4-unsplash.jpg', './resources/black-marble-texture2-min2.jpg', './resources/engin-akyurt-m555vEfryhE-unsplash.jpg', './resources/marble-2398956_1920.jpg'];
+const banner = document.querySelector('.banner1');
+const bannerImg = ['./resources/bg1.jpg', './resources/bg2.jpg', './resources/bg3.jpg', './resources/bg4.jpg'];
 let bannerImgIndex = 0;
 const logoName = document.querySelector('#logo-name');
 const logoCube = document.querySelector('#logo-cube');
 const navbar = document.querySelector('.navbar');
 const instagram = document.querySelector('#example-instagram');
-const contact = document.querySelector('#example-contact');
-const bannerBtn = document.querySelector('.banner-overlay button');
+const instagramBanner = document.querySelector('.banner-overlay button');
 
-bannerBtn.addEventListener('click', () => {
-     window.location.href = './contact';
-});
+if (instagramBanner) {
+    instagramBanner.addEventListener('click', () => {
+        window.location.href = './inventory';
+    });
+}
 
 logoCube.addEventListener('click', () => {
     window.location.href = './';
@@ -46,35 +47,36 @@ const bannerImgChanger = () => {
     banner.style.background = `url(${bannerImg[bannerImgIndex]})`;
     
     if (bannerImgIndex === 0) {
-        banner.style.backgroundSize = '2100px';
-        banner.style.backgroundPosition = '0 -400px'
-        banner.style.backgroundAttachment = 'fixed';
+        banner.classList.remove('banner2', 'banner3', 'banner4')
+        banner.classList.add('banner1');
         banner.style.opacity = '1'
-        banner.style.transition = 'opacity 1s ease-in, background-size 0s, background-position 0s;';
+        
         setTimeout(() => {
             banner.style.opacity = '0'
         }, 7000)
 
     } else if (bannerImgIndex === 1) {
-        banner.style.backgroundSize = '2000px';
-        banner.style.backgroundAttachment = 'fixed';
+        banner.classList.remove('banner1', 'banner3', 'banner4')
+        banner.classList.add('banner2');
         banner.style.opacity = '1'
-        banner.style.transition = 'opacity 1s ease-in, background-size 0s, background-position 0s;';
+        
         setTimeout(() => {
             banner.style.opacity = '0'
         }, 7000)
 
     } else if (bannerImgIndex === 2) {
-        banner.style.backgroundAttachment = 'fixed';
+        banner.classList.remove('banner1', 'banner2', 'banner4')
+        banner.classList.add('banner3');
         banner.style.opacity = '1'
-        banner.style.transition = 'opacity 1s ease-in, background-size 0s, background-position 0s;';
+        
         setTimeout(() => {
             banner.style.opacity = '0'
         }, 7000)
     } else if (bannerImgIndex === 3) {
-        banner.style.backgroundAttachment = 'fixed';
+        banner.classList.remove('banner1', 'banner2', 'banner3')
+        banner.classList.add('banner4');
         banner.style.opacity = '1'
-        banner.style.transition = 'opacity 1s ease-in, background-size 0s, background-position 0s;';
+        
         setTimeout(() => {
             banner.style.opacity = '0'
         }, 7000)
@@ -87,8 +89,4 @@ setInterval(bannerImgChanger, 8000)
 
 instagram.addEventListener('click', () => {
     window.open('https://www.instagram.com/stonesvillage/', '_blank')
-})
-
-contact.addEventListener('click', () => {
-    window.location.href = './contact';
 })
