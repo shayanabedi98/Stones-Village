@@ -5,17 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Stones Village: Premier stone supplier, fabricator, and installer in Concord, Ontario. Experience superior quality and craftsmanship in stone fabrication.">
     <meta name="keywords" content="Stones Village, Stone Supplier Concord, Ontario, Granite, Marble, Onyx, Quartz, Porcelain, Stone Fabrication">
-    <title>Stones Village | About Us</title>
+    <title>Stones Village | Contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="media.css">
 </head>
 <body>
@@ -71,32 +65,36 @@
             </button>
         </div>
     </div>
-    <div class="about-container">
-        <div class="about-banner">
-            <!-- Background Image -->
+    <div class="contact-container">
+        <div class="contact-banner">
+        <!-- Background Image -->
         </div>
-        <div class="about-banner-overlay">
-            <h1>About Stones Village</h1>
-            <div class="about-content">
-                <div class="about-text">
+        <div class="contact-banner-overlay">
+            <div class="contact-form">
+                <h1>Contact Us</h1>
+                <h2>Responses are made within 2-3 business days.</h2>
+                <form action="https://formsubmit.co/info@stonesvillage.net" method="POST">
+                    <input id="input-name" placeholder="Your Name" type="text" name="name" required>
 
-                    <h2>Our Vision</h2>
-                    <p>At Stones Village, we embrace the timeless elegance of stone. Each project, from Granite to Porcelain, is a testament to our dedication and craftsmanship. Based in Concord, Ontario, Stones Village stands out as a leading supplier and craftsman in stone fabrication, offering unparalleled artistry.</p>
-            
-                    <h2>Our Legacy</h2>
-                    <p>Established in 2002 by Mr. Ahmad Abedi, Stones Village has been setting industry standards, continuously elevating the bar in stone craftsmanship. Our commitment is unwavering. Every project is a reflection of our expertise and passion for stone fabrication.</p>
+                    <input id="input-email" placeholder="Your Email" type="email" name="email" required>
 
-                    <h2>Our Materials</h2>
-                    <p>Beyond just being a supplier, we have an intimate understanding of each stone's character and potential. Granite, with its timeless appeal; Marble, epitomizing luxury; Onyx, capturing the mysteries of nature; Quartz, blending durability with aesthetics, and Porcelain, the modern choice for versatility. Our curated selection ensures that every space we touch resonates with luxury and durability.
-                    </p>
-                </div>
-                <div class="about-filler">
-                    <img src="./resources/SV.png" alt="Stones Village Logo">
-                </div>
-           </div>
+                    <textarea id="input-msg" name="message" cols="30" rows="10" required></textarea>
+
+                    <button type="submit">Send</button>
+
+                    <input type="hidden" name="_next" value="https://stonesvillage.net/contact">
+
+                    <input type="hidden" name="_captcha" value="false">
+               </form>
+            </div>
+            <div class="contact-map">
+                <h3>You can also call us at <a href="tel:+14372375062">(437) 237-5062</a><br> or visit us in person at <a href="https://www.google.com/maps/place/Stones+Village+inc./@43.8039403,-79.5283176,17z/data=!3m2!4b1!5s0x882b3b02cc447315:0x43a46dcfac7c3a47!4m6!3m5!1s0x882b2fe60e9cb40b:0x2e2e691d0deb630e!8m2!3d43.8039365!4d-79.5257427!16s%2Fg%2F11t6z5961k?entry=ttu" target="_blank">8111 Jane Street, Vaughan, ON, L4K 4L7</a></h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.502258648657!2d-79.52831762329814!3d43.803940342667495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2fe60e9cb40b%3A0x2e2e691d0deb630e!2sStones%20Village%20inc.!5e0!3m2!1sen!2sca!4v1698085969811!5m2!1sen!2sca" width="800" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </div>
-    <footer class="about not-home">
+
+    <footer class="contact not-home">
         <div class="navbar-menu">
             <ul>
                 <li><a href="./">Home</a></li>
@@ -107,5 +105,7 @@
             <p>Copyright © 2023 Shayan Abedi, Stones Village Inc.</p>
         </div>
     </footer>
+    <script src="./contact.js"></script>
     <script src="./index.js"></script>
 </body>
+</html>

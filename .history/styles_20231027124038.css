@@ -32,6 +32,8 @@ hr {
     position: fixed;
     width: 100%;
     z-index: 5;
+    border: #bc2a8d 1px solid;
+    justify-items: center;
 }
 
 .logo {
@@ -159,6 +161,8 @@ hr {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 1px solid white;
+
 }
 
 .navbar-menu-mobile ul {

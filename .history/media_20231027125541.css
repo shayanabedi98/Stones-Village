@@ -4,6 +4,7 @@
     .about-filler img {
         height: 210px;
         position: relative;
+        top: -80px;
     }
 }
 

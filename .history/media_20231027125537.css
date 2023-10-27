@@ -2,8 +2,9 @@
     /* About */
 
     .about-filler img {
-        height: 210px;
+        height: 110px;
         position: relative;
+        top: -80px;
     }
 }
 

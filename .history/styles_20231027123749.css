@@ -32,6 +32,7 @@ hr {
     position: fixed;
     width: 100%;
     z-index: 5;
+    border: #bc2a8d 1px solid;
 }
 
 .logo {
@@ -156,13 +157,12 @@ hr {
 
 .navbar-menu-mobile {
     display: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
-.navbar-menu-mobile ul {
-    padding: 0;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid white;
+    margin-left: 100px;
 }
 
 .navbar-menu-mobile a {
@@ -183,6 +183,7 @@ hr {
     justify-items: start;
     align-items: center;
     width: 100px;
+    margin-left: 30px;
 }
 
 .banner1, .banner2, .banner3, .banner4, .banner5 {

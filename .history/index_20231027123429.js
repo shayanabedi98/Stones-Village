@@ -12,21 +12,16 @@ const mobileMenu = document.querySelector('.navbar-menu-mobile');
 const closeMobileMenuBtn = document.querySelector('.close-navbar-menu-mobile img');
 const closeMobileMenu = document.querySelector('.close-navbar-menu-mobile');
 
-window.addEventListener('resize', () => {
-    if (window.matchMedia('(min-width:901px)').matches) {
-        mobileMenuBtnDiv.style.display = 'none'
-    } else {
-        mobileMenuBtnDiv.style.display = 'grid';
-    }
-})
 
-if (window.innerWidth >= 901) {
-    mobileMenuBtnDiv.style.display = 'none';
-    mobileMenu.style.display = 'none';
-    closeMobileMenu.style.display = 'none';
+window.addEventListener('resize', () => {
+    if (window.matchMedia('(min-width: 901px)').matches) {
+      mobileMenuBtnDiv.style.display = 'none';
+      mobileMenu.style.display = 'none';
+      closeMobileMenu.style.display = 'none';
     } else {
-    mobileMenuBtnDiv.style.display = 'grid';
+      mobileMenuBtnDiv.style.display = 'grid';
     }
+  });
 
 mobileMenuBtn.addEventListener('click', () => {
     mobileMenu.style.display = 'flex';
