@@ -508,10 +508,6 @@
     .contact-form h2 {
         font-size: 18px;
     }
-
-    #input-name, #input-email, #input-msg {
-        font-size: 14px;
-    }
     
     #input-name, #input-email {
         width: 70%;

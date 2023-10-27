@@ -471,97 +471,32 @@
 }
 
 @media (max-width: 375px) {
-    /* About */
-    
-    .about-banner, .about-container {
-        height: 145vh;
-    }
-    
-    .about-banner-overlay {
-        height: 145vh;
-        margin-bottom: 150px;
-    }
+        /* About */
+        
+        .about-banner, .about-container {
+            height: 145vh;
+        }
+        
+        .about-banner-overlay {
+            height: 145vh;
+            margin-bottom: 150px;
+        }
 
-    /* Inventory */
+        /* Inventory */
 
-    .mini-nav a button {
-        font-size: 14px;
-        height: 30px;
-        margin: 50px 5px;
-    }
+        .mini-nav a button {
+            font-size: 14px;
+            height: 30px;
+            margin: 50px 5px;
+        }
 }
 
-@media (min-height: 500px) and (max-height: 900px) {
-
+@media (min-height: 600px) and (max-height: 900px) {
     .banner-overlay h1 {
-        top: 130px;
-    }
-
-    .contact-form {
-        margin-top: 70px;
-    }
-
-    .contact-form h1 {
-        font-size: 22px;
-    }
-
-    .contact-form h2 {
-        font-size: 18px;
-    }
-
-    #input-name, #input-email, #input-msg {
-        font-size: 14px;
-    }
-    
-    #input-name, #input-email {
-        width: 70%;
-        height: 10px;
-    }
-
-    #input-msg {
-        height: 90px;
-        width: 70%;
+        top: 120px;
     }
 
     iframe {
-        height: 250px;
-    }
-
-    .about-container {
-        height: 130vh;
-    }
-    
-    .about-banner {
-        height: 130vh;
-    }
-
-    .about-banner-overlay {
-        height: 130vh;
-        grid-template-rows: 0.01fr 1fr;
-    }
-
-    .about-banner-overlay h1 {
-        font-size: 26px;
-    }
-
-    .about-content {
-        grid-template-rows: 1fr 0.1fr;
-        grid-template-columns: none;
-        width: 90%;
-        height: 100%;
-    }
-
-    .about-text h2 {
-        font-size: 20px;
-    }
-
-    .about-filler img {
-        height: 110px;
-        position: relative;
-        top: -80px;
-    }
-
-    .about-text p {
-        font-size: 16px;
+        height: 300px;
     }
 }

@@ -498,7 +498,7 @@
     }
 
     .contact-form {
-        margin-top: 70px;
+        margin-top: 50px;
     }
 
     .contact-form h1 {
@@ -507,10 +507,6 @@
 
     .contact-form h2 {
         font-size: 18px;
-    }
-
-    #input-name, #input-email, #input-msg {
-        font-size: 14px;
     }
     
     #input-name, #input-email {
