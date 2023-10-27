@@ -11,29 +11,23 @@ const mobileMenuBtnDiv = document.querySelector('.phone-menu-button');
 const mobileMenu = document.querySelector('.navbar-menu-mobile');
 const closeMobileMenuBtn = document.querySelector('.close-navbar-menu-mobile img');
 const closeMobileMenu = document.querySelector('.close-navbar-menu-mobile');
+const mediaQuery = window.matchMedia('(max-width: 900px)');
+
+if (mediaQuery) {
+    mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.style.display = 'grid';
+        mobileMenuBtnDiv.style.display = 'none';
+        closeMobileMenu.style.display = 'grid'; 
+    });
+    
+    closeMobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.style.display = 'none';
+        mobileMenuBtnDiv.style.display = 'grid';
+        closeMobileMenu.style.display = 'none'
+    });
+}
 
 
-window.addEventListener('resize', () => {
-    if (window.matchMedia('(min-width: 901px)').matches) {
-      mobileMenuBtnDiv.style.display = 'none';
-      mobileMenu.style.display = 'none';
-      closeMobileMenu.style.display = 'none';
-    } else {
-      mobileMenuBtnDiv.style.display = 'grid';
-    }
-  });
-
-mobileMenuBtn.addEventListener('click', () => {
-    mobileMenu.style.display = 'grid';
-    mobileMenuBtnDiv.style.display = 'none';
-    closeMobileMenu.style.display = 'grid'; 
-});
-
-closeMobileMenuBtn.addEventListener('click', () => {
-    mobileMenu.style.display = 'none';
-    mobileMenuBtnDiv.style.display = 'grid';
-    closeMobileMenu.style.display = 'none'
-});
 
 if (instagramBanner) {
     instagramBanner.addEventListener('click', () => {

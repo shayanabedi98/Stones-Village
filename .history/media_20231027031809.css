@@ -68,10 +68,6 @@
         grid-template-columns: 1fr 0.5fr;
     }
 
-    .navbar-menu-mobile {
-        width: 100%;
-    }
-
     #logo-name {
         height: 20px;
     }
@@ -317,10 +313,13 @@
         height: 320px;
     }
 
+    .example-pictures {
+        text-align: center;
+    }
 
     .example-pictures, .example-pictures img {
-        height: 130px;
-        width: 130px;
+        height: 110px;
+        width: 110px;
     }
 
 
@@ -358,13 +357,5 @@
             height: 150vh;
             grid-template-rows: 0.01fr 1fr;
             margin-bottom: 150px;
-        }
-
-        /* Inventory */
-
-        .mini-nav a button {
-            font-size: 14px;
-            height: 30px;
-            margin: 50px 5px;
         }
 }

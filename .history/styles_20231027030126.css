@@ -158,6 +158,12 @@ hr {
     display: none;
 }
 
+.navbar-menu-mobile ul {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
 .navbar-menu-mobile a {
     text-decoration: none;
     color: white;

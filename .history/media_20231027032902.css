@@ -68,10 +68,6 @@
         grid-template-columns: 1fr 0.5fr;
     }
 
-    .navbar-menu-mobile {
-        width: 100%;
-    }
-
     #logo-name {
         height: 20px;
     }
@@ -365,6 +361,5 @@
         .mini-nav a button {
             font-size: 14px;
             height: 30px;
-            margin: 50px 5px;
         }
 }

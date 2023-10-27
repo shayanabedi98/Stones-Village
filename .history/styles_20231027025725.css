@@ -156,6 +156,11 @@ hr {
 
 .navbar-menu-mobile {
     display: none;
+    justify-items: center;
+}
+
+.navbar-menu-mobile ul {
+    text-align: center;
 }
 
 .navbar-menu-mobile a {
@@ -164,6 +169,7 @@ hr {
 }
 
 .navbar-menu-mobile li {
+    text-align: center;
     list-style: none;
     margin-top: 10px;
 }

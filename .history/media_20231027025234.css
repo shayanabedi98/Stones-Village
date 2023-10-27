@@ -68,10 +68,6 @@
         grid-template-columns: 1fr 0.5fr;
     }
 
-    .navbar-menu-mobile {
-        width: 100%;
-    }
-
     #logo-name {
         height: 20px;
     }
@@ -148,10 +144,6 @@
     .summary-image {
         text-align: center;
         margin-bottom: 50px;
-    }
-
-    .summary-image {
-        height: 400px;
     }
 
     .summary-image img {
@@ -282,18 +274,6 @@
 
 @media (max-width: 500px) {
 
-    /* Home */
-
-    .summary-container {
-        grid-template-rows: 0.5fr 1fr;
-    }
-
-    .summary-image {
-        margin-bottom: 60px;
-    }
-
-
-
     /* About */
 
     .about-banner-overlay h1 {
@@ -310,19 +290,6 @@
 }
 
 @media (max-width: 425px) {
-    
-    /* Home */
-
-    .summary-image img {
-        height: 320px;
-    }
-
-
-    .example-pictures, .example-pictures img {
-        height: 130px;
-        width: 130px;
-    }
-
 
     /* About */
 
@@ -349,22 +316,8 @@
 
 @media (max-width: 375px) {
         /* About */
-        
-        .about-banner, .about-container {
-            height: 150vh;
-        }
-        
-        .about-banner-overlay {
-            height: 150vh;
-            grid-template-rows: 0.01fr 1fr;
-            margin-bottom: 150px;
-        }
 
-        /* Inventory */
-
-        .mini-nav a button {
-            font-size: 14px;
-            height: 30px;
-            margin: 50px 5px;
+        .about-banner-overlay h1 {
+            margin-bottom: 120px;
         }
 }

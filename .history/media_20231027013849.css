@@ -1,6 +1,6 @@
 @media (max-width: 1024px)  
 {
-
+    /* ****LAPTOP**** */
     /* Home */
 
     .card-container {
@@ -61,15 +61,11 @@
     }
 }
 
-@media (max-width: 900px) {
-
+@media (max-width: 425px) {
+    /* Mobile L */
     /* Home */
     .navbar {
         grid-template-columns: 1fr 0.5fr;
-    }
-
-    .navbar-menu-mobile {
-        width: 100%;
     }
 
     #logo-name {
@@ -147,11 +143,6 @@
 
     .summary-image {
         text-align: center;
-        margin-bottom: 50px;
-    }
-
-    .summary-image {
-        height: 400px;
     }
 
     .summary-image img {
@@ -178,7 +169,6 @@
     }
 
     #example-instagram {
-        margin-top: 80px;
         height: 60px;
         width: 160px;
     }
@@ -192,7 +182,7 @@
     }
     
     .about-banner {
-        height: 130vh;
+        display: none;
     }
 
     .about-banner-overlay {
@@ -201,7 +191,7 @@
     }
 
     .about-banner-overlay h1 {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     .about-content {
@@ -212,17 +202,18 @@
     }
 
     .about-text h2 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .about-filler img {
         height: 110px;
         position: relative;
         top: -80px;
+
     }
 
     .about-text p {
-        font-size: 16px;
+        font-size: 12px;
     }
 
 
@@ -230,141 +221,25 @@
     /* Contact */
 
     .contact-banner {
-        height: 160vh;
-    }
-
-    .contact-container input {
-        font-size: 14px;
+        height: 200vh;
     }
 
     .contact-banner-overlay {
-        height: 160vh;
-        grid-template-rows: 1fr 1fr;
+        height: 200vh;
+        grid-template-rows: 1fr 0.5fr;
         grid-template-columns: none;
     }
 
     .contact-form {
         width: 80%;
-        margin-top: 100px;
-    }
-
-    .contact-form h1 {
-        font-size: 26px;
-    }
-
-    .contact-form h2 {
-        font-size: 18px;
     }
     
     #input-name, #input-email, #input-msg {
-        width: 90%;
-    }
-
-    .contact-map h3 {
-        width: 90%;
-        margin: 0 auto;
+        width: 220px;
+        height: 15px;
     }
 
     iframe {
-        margin-top: 50px;
-        width: 90%;
-        height: 220px;
+        width: 100%;
     }
-
-
-
-    /* Inventory */
-
-    .marble, .onyx, .porcelain, .granite, .quartz {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 500px) {
-
-    /* Home */
-
-    .summary-container {
-        grid-template-rows: 0.5fr 1fr;
-    }
-
-    .summary-image {
-        margin-bottom: 60px;
-    }
-
-
-
-    /* About */
-
-    .about-banner-overlay h1 {
-        font-size: 20px;
-    }
-
-    .about-banner-overlay h2 {
-        font-size: 16px;
-    }
-
-    .about-banner-overlay p {
-        font-size: 13px;
-    }
-}
-
-@media (max-width: 425px) {
-    
-    /* Home */
-
-    .summary-image img {
-        height: 320px;
-    }
-
-
-    .example-pictures, .example-pictures img {
-        height: 130px;
-        width: 130px;
-    }
-
-
-    /* About */
-
-    .about-banner-overlay h1 {
-        margin-bottom: 30px;
-    }
-
-    .about-filler img {
-        height: 100px;
-        top: -50px;
-    }
-
-    /* Inventory */
-
-    .item {
-        width: 300px;
-        height: 250px;
-    }
-
-    .item p {
-        top: 240px;
-    }
-}
-
-@media (max-width: 375px) {
-        /* About */
-        
-        .about-banner, .about-container {
-            height: 150vh;
-        }
-        
-        .about-banner-overlay {
-            height: 150vh;
-            grid-template-rows: 0.01fr 1fr;
-            margin-bottom: 150px;
-        }
-
-        /* Inventory */
-
-        .mini-nav a button {
-            font-size: 14px;
-            height: 30px;
-            margin: 50px 5px;
-        }
 }

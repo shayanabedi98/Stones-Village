@@ -547,14 +547,6 @@ footer.not-home {
     grid-template-rows: 0.1fr 1fr;
 }
 
-
-.about-banner-overlay h1 {
-    font-weight: 100;
-    position: relative;
-    letter-spacing: 4px;
-    top: 100px;
-}
-
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -567,6 +559,13 @@ footer.not-home {
     text-align: start;
     width: 90%;
     width: 90%;
+}
+
+.about-banner-overlay h1 {
+    font-weight: 100;
+    position: relative;
+    letter-spacing: 4px;
+    top: 100px;
 }
 
 .about-text h2 {
@@ -619,7 +618,6 @@ footer.not-home {
 }
 
 .mini-nav {
-    position: -webkit-sticky;
     position: sticky;
     top: 50px;
     z-index: 5;

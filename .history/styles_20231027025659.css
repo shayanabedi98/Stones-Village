@@ -156,6 +156,7 @@ hr {
 
 .navbar-menu-mobile {
     display: none;
+    justify-items: center;
 }
 
 .navbar-menu-mobile a {
