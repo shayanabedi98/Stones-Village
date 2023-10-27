@@ -1,18 +1,6 @@
 @media (max-width: 1700px) {
     /* About */
 
-    .about-container {
-        height: 120vh;
-    }
-    
-    .about-banner {
-        height: 120vh;
-    }
-
-    .about-banner-overlay {
-        height: 120vh;
-    }
-
     .about-filler img {
         height: 210px;
         position: relative;
@@ -33,17 +21,6 @@
 
 @media (max-width: 1440px) {
 
-    /* About */
-
-    .about-text h2 {
-        font-size: 20px;
-    }
-
-    .about-text p {
-        font-size: 16px;
-    }
-
-
     /* Home */
 
     .card-container {
@@ -60,16 +37,6 @@
 }
 
 @media (max-width: 1160px) {
-
-    /* About */
-
-    .about-content {
-        width: 97%;
-    }
-
-    /* Contact */
-
-
     .contact-banner {
         height: 160vh;
     }
@@ -99,7 +66,7 @@
     /* Home */
 
     .navbar-menu a {
-        font-size: 16px;
+        font-size: 14px;
         margin: 0 1em;
     }    
 
@@ -220,11 +187,6 @@
 
     .title {
         text-align: center;
-    }
-    
-    .card-container {
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-columns: none;
     }
 
     .card-title {
@@ -409,18 +371,10 @@
         height: 320px;
     }
 
-    .summary-image {
-        margin-bottom: 0;
-    }
 
     .example-pictures, .example-pictures img {
         height: 130px;
         width: 130px;
-    }
-
-    .example-content .title {
-        margin-top: 210px;
-        margin-bottom: 0;
     }
 
 

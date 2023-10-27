@@ -409,18 +409,10 @@
         height: 320px;
     }
 
-    .summary-image {
-        margin-bottom: 0;
-    }
 
     .example-pictures, .example-pictures img {
         height: 130px;
         width: 130px;
-    }
-
-    .example-content .title {
-        margin-top: 210px;
-        margin-bottom: 0;
     }
 
 

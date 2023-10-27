@@ -12,21 +12,21 @@ const mobileMenu = document.querySelector('.navbar-menu-mobile');
 const closeMobileMenuBtn = document.querySelector('.close-navbar-menu-mobile img');
 const closeMobileMenu = document.querySelector('.close-navbar-menu-mobile');
 
-function adjustMenuDisplay() {
-    if (window.innerWidth >= 901) {
-        mobileMenuBtnDiv.style.display = 'none';
-        mobileMenu.style.display = 'none';
-        closeMobileMenu.style.display = 'none';
-    } else if (closeMobileMenu.style.display === 'grid') {
-        mobileMenuBtnDiv.style.display = 'none';
-    } else if (closeMobileMenu.style.display === 'none') {
+window.addEventListener('resize', () => {
+    if (window.matchMedia('(min-width:901px)').matches) {
+        mobileMenuBtnDiv.style.display = 'none'
+    } else {
         mobileMenuBtnDiv.style.display = 'grid';
     }
-}
+})
 
-adjustMenuDisplay();
-
-window.addEventListener('resize', adjustMenuDisplay);
+if (window.innerWidth >= 901) {
+    mobileMenuBtnDiv.style.display = 'none';
+    mobileMenu.style.display = 'none';
+    closeMobileMenu.style.display = 'none';
+    } else {
+    mobileMenuBtnDiv.style.display = 'grid';
+    }
 
 mobileMenuBtn.addEventListener('click', () => {
     mobileMenu.style.display = 'flex';
@@ -37,10 +37,8 @@ mobileMenuBtn.addEventListener('click', () => {
 closeMobileMenuBtn.addEventListener('click', () => {
     mobileMenu.style.display = 'none';
     mobileMenuBtnDiv.style.display = 'grid';
-    closeMobileMenu.style.display = 'none';
+    closeMobileMenu.style.display = 'none'
 });
-
-
 
 if (instagramBanner) {
     instagramBanner.addEventListener('click', () => {

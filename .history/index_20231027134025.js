@@ -24,8 +24,10 @@ function adjustMenuDisplay() {
     }
 }
 
+// Adjust the display immediately when the script loads
 adjustMenuDisplay();
 
+// Add event listener to handle screen resize
 window.addEventListener('resize', adjustMenuDisplay);
 
 mobileMenuBtn.addEventListener('click', () => {
