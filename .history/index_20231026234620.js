@@ -7,21 +7,17 @@ const navbar = document.querySelector('.navbar');
 const instagram = document.querySelector('#example-instagram');
 const instagramBanner = document.querySelector('.banner-overlay button');
 const mobileMenuBtn = document.querySelector('.phone-menu-button img');
-const mobileMenuBtnDiv = document.querySelector('.phone-menu-button');
-const mobileMenu = document.querySelector('.navbar-menu-mobile');
-const closeMobileMenuBtn = document.querySelector('.close-navbar-menu-mobile img');
-const closeMobileMenu = document.querySelector('.close-navbar-menu-mobile');
+const mobileMenu = document.querySelector('navbar-menu-mobile');
+const closeMobileMenuBtn = document.querySelector('close-navbar-menu-mobile img');
 
 mobileMenuBtn.addEventListener('click', () => {
     mobileMenu.style.display = 'grid';
-    mobileMenuBtnDiv.style.display = 'none';
-    closeMobileMenu.style.display = 'grid'; 
+    mobileMenuBtn.style.visibility = 'hidden';
 });
 
 closeMobileMenuBtn.addEventListener('click', () => {
     mobileMenu.style.display = 'none';
-    mobileMenuBtnDiv.style.display = 'grid';
-    closeMobileMenu.style.display = 'none'
+    mobileMenuBtn.style.visibility = 'visible';
 });
 
 if (instagramBanner) {

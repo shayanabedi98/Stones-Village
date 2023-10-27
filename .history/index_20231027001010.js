@@ -14,13 +14,13 @@ const closeMobileMenu = document.querySelector('.close-navbar-menu-mobile');
 
 mobileMenuBtn.addEventListener('click', () => {
     mobileMenu.style.display = 'grid';
-    mobileMenuBtnDiv.style.display = 'none';
+    mobileMenuBtn.style.visibility = 'hidden';
     closeMobileMenu.style.display = 'grid'; 
 });
 
 closeMobileMenuBtn.addEventListener('click', () => {
     mobileMenu.style.display = 'none';
-    mobileMenuBtnDiv.style.display = 'grid';
+    mobileMenuBtnDiv.style.display = 'none';
     closeMobileMenu.style.display = 'none'
 });
 

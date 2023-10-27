@@ -20,7 +20,7 @@ mobileMenuBtn.addEventListener('click', () => {
 
 closeMobileMenuBtn.addEventListener('click', () => {
     mobileMenu.style.display = 'none';
-    mobileMenuBtnDiv.style.display = 'grid';
+    mobileMenuBtnDiv.style.display = 'none';
     closeMobileMenu.style.display = 'none'
 });
 

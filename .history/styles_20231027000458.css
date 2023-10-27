@@ -98,11 +98,6 @@ hr {
     height: 30px;
 }
 
-.close-navbar-menu-mobile {
-    text-align: center;
-    display: none;
-}
-
 .navbar-links {
     display: flex;
     justify-content: center;
@@ -165,7 +160,6 @@ hr {
 
 .navbar-menu-mobile li {
     list-style: none;
-    margin-top: 10px;
 }
 
 .navbar-links-mobile {
