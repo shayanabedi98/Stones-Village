@@ -32,6 +32,7 @@ mobileMenuBtn.addEventListener('click', () => {
     mobileMenu.style.display = 'flex';
     mobileMenuBtnDiv.style.display = 'none';
     closeMobileMenu.style.display = 'grid';
+    navbar.style.height = '100px'
 });
 
 closeMobileMenuBtn.addEventListener('click', () => {

@@ -29,7 +29,7 @@ hr {
     background-color: rgba(29, 31, 31, 0.7);
     box-shadow: 0 0 5px 0 rgb(0, 0, 0);
     position: fixed;
-    padding: 10px 0 10px 0;
+    height: 70px;
     width: 100%;
     z-index: 5;
 }
@@ -160,15 +160,10 @@ hr {
     align-items: center;
     flex-direction: column;
     margin: 0;
-
 }
 
 .navbar-menu-mobile ul {
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 95%;
-    height: 180px;
-    border-radius: 5px;
 }
 
 .navbar-menu-mobile a {
@@ -188,14 +183,7 @@ hr {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    width: 100%;
-}
-
-.navbar-links-mobile #instagram, .navbar-links-mobile #tel {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.50), 0 6px 6px rgba(0,0,0,0.50);
-    width: 90%;
-    height: 50px;
-    background-color: rgba(0, 0, 0,0.5);
+    width: 100px;
 }
 
 .banner1, .banner2, .banner3, .banner4, .banner5 {

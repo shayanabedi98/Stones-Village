@@ -160,15 +160,10 @@ hr {
     align-items: center;
     flex-direction: column;
     margin: 0;
-
 }
 
 .navbar-menu-mobile ul {
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 95%;
-    height: 180px;
-    border-radius: 5px;
 }
 
 .navbar-menu-mobile a {
