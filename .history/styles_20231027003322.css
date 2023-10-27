@@ -383,6 +383,7 @@ hr {
 }
 
 #example-instagram {
+#example-instagram {
     width: 200px;
     height: 50px;
     border: none;
@@ -401,12 +402,18 @@ hr {
     margin-top: 5px;
 }
 
+#example-instagram img {
+    height: 43px;
+    margin-top: 5px;
+}
+
 #example-contact {
     margin-left: 20px;
     font-family: 'Dancing Script', cursive;
     font-weight: 900;
     font-size: 30px;
 }
+
 
 footer {
     background-color: rgba(29, 31, 31, 0.7);

@@ -383,6 +383,7 @@ hr {
 }
 
 #example-instagram {
+#example-instagram {
     width: 200px;
     height: 50px;
     border: none;
@@ -391,6 +392,14 @@ hr {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     cursor: pointer;
     border-radius: 5px;
+    background: linear-gradient(45deg, #f8a61f, #bc2a8d);
+    font-weight: 800;
+    color: #FFFFFE;
+}
+
+
+
+
     background: linear-gradient(45deg, #f8a61f, #bc2a8d);
     font-weight: 800;
     color: #FFFFFE;
@@ -407,6 +416,7 @@ hr {
     font-weight: 900;
     font-size: 30px;
 }
+
 
 footer {
     background-color: rgba(29, 31, 31, 0.7);
