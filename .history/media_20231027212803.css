@@ -575,24 +575,18 @@
         height: 250px;
     }
 
-    .about-container {
-        height: 160vh;
-    }
-
     .about-banner {
-        height: 160vh;
+        height: 100vh;
     }
     
     .about-banner-overlay {
-        height: 160vh;
+        height: 100vh;
     }
 
     .about-content {
         grid-template-rows: 1fr 0.1fr;
         grid-template-columns: none;
         width: 90%;
-        height: 150vh;
-        margin-top: 60px;
     }
 
     .about-text h2 {
@@ -663,11 +657,7 @@
     .about-container {
         height: 175vh;
     }
-
-    .about-text {
-        width: 100%;
-    }
-
+    
     .about-banner {
         height: 175vh;
     }

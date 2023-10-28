@@ -311,6 +311,7 @@
         grid-template-rows: 1fr 0.1fr;
         grid-template-columns: none;
         width: 90%;
+        height: 100%;
     }
 
     .about-text h2 {
@@ -575,24 +576,11 @@
         height: 250px;
     }
 
-    .about-container {
-        height: 160vh;
-    }
-
-    .about-banner {
-        height: 160vh;
-    }
-    
-    .about-banner-overlay {
-        height: 160vh;
-    }
-
     .about-content {
         grid-template-rows: 1fr 0.1fr;
         grid-template-columns: none;
         width: 90%;
-        height: 150vh;
-        margin-top: 60px;
+        height: 100%;
     }
 
     .about-text h2 {
@@ -601,7 +589,6 @@
 
     .about-filler img {
         height: 100px;
-        top: 0;
     }
 
     .about-text p {
@@ -646,7 +633,7 @@
     }
 }
 
-@media (max-height: 720px) {
+@media (max-height: 700px) {
 
     .banner-overlay h1 {
         top: 150px;
@@ -663,21 +650,13 @@
     .about-container {
         height: 175vh;
     }
-
-    .about-text {
-        width: 100%;
-    }
-
+    
     .about-banner {
         height: 175vh;
     }
 
     .about-banner-overlay {
         height: 175vh;
-    }
-
-    .about-filler img {
-        top: -40px;
     }
 }
 

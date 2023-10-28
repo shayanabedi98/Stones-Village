@@ -592,7 +592,7 @@
         grid-template-columns: none;
         width: 90%;
         height: 150vh;
-        margin-top: 60px;
+        margin-top: 80px;
     }
 
     .about-text h2 {
@@ -663,11 +663,7 @@
     .about-container {
         height: 175vh;
     }
-
-    .about-text {
-        width: 100%;
-    }
-
+    
     .about-banner {
         height: 175vh;
     }

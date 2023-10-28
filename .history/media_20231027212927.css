@@ -580,11 +580,11 @@
     }
 
     .about-banner {
-        height: 160vh;
+        height: 150vh;
     }
     
     .about-banner-overlay {
-        height: 160vh;
+        height: 150vh;
     }
 
     .about-content {
@@ -592,7 +592,6 @@
         grid-template-columns: none;
         width: 90%;
         height: 150vh;
-        margin-top: 60px;
     }
 
     .about-text h2 {
@@ -663,11 +662,7 @@
     .about-container {
         height: 175vh;
     }
-
-    .about-text {
-        width: 100%;
-    }
-
+    
     .about-banner {
         height: 175vh;
     }

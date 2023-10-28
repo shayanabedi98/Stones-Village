@@ -46,12 +46,8 @@
 
     /* Home */
 
-    .logo {
-        padding: 0 10px 0 10px;
-    }
-
     .card-container {
-        width: 95%;
+        width: 90%;
     }
 
     .summary-container {
@@ -311,6 +307,7 @@
         grid-template-rows: 1fr 0.1fr;
         grid-template-columns: none;
         width: 90%;
+        height: 100%;
     }
 
     .about-text h2 {
@@ -387,10 +384,6 @@
 
 
     /* About */
-
-    .about-content {
-        margin-top: 100px;
-    }
 
     .about-banner-overlay h1 {
         font-size: 20px;
@@ -498,25 +491,7 @@
 
 /* @media (min-height: 500px) and (max-height: 900px) {
 
-   
 
-
-    .about-banner-overlay h1 {
-        font-size: 20px;
-    }
-
-    .about-content {
-        grid-template-rows: 1fr 0.1fr;
-        grid-template-columns: none;
-        width: 90%;
-        height: 100%;
-    }
-
-
-} */
-
-
-@media (max-height:850px) {
     .banner1 {
         background-size: 2060px !important;
         background-position: 2000px !important;
@@ -538,11 +513,7 @@
     }
 
     .banner-overlay h1 {
-        top: 200px;
-    }
-
-    .card-container {
-        width: 85%;
+        top: 130px;
     }
 
     .contact-form {
@@ -576,108 +547,71 @@
     }
 
     .about-container {
-        height: 160vh;
-    }
-
-    .about-banner {
-        height: 160vh;
+        height: 140vh;
     }
     
+    .about-banner {
+        height: 140vh;
+    }
+
     .about-banner-overlay {
-        height: 160vh;
+        height: 140vh;
+        grid-template-rows: 0.1fr 1fr;
+    }
+
+    .about-banner-overlay h1 {
+        font-size: 20px;
     }
 
     .about-content {
         grid-template-rows: 1fr 0.1fr;
         grid-template-columns: none;
         width: 90%;
-        height: 150vh;
-        margin-top: 60px;
+        height: 100%;
     }
 
     .about-text h2 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .about-filler img {
-        height: 100px;
-        top: 0;
+        height: 110px;
+        position: relative;
+        top: -80px;
     }
 
     .about-text p {
-        font-size: 16px;
+        font-size: 12px;
     }
+} */
 
-}
 
-@media (max-height:820px) {
-    .about-text h2 {
-        font-size: 16px;
-    }
-
-    .about-text p {
-        font-size: 13px;
-    }
-
-    .about-container {
-        height: 155vh;
+@media (max-height:850px) {
+    .banner1 {
+        background-size: 2060px !important;
+        background-position: 2000px !important;
     }
     
-    .about-banner {
-        height: 155vh;
-    }
-
-    .about-banner-overlay {
-        height: 155vh;
-    }
-}
-
-@media (max-height: 780px) {
-    .about-container {
-        height: 165vh;
+    .banner2 {
+        background-size: 2060px !important;
+        background-position: 2000px !important;
     }
     
-    .about-banner {
-        height: 165vh;
+    .banner3 {
+        background-size: 1860px !important;
+        background-position: 3000px !important;
     }
-
-    .about-banner-overlay {
-        height: 165vh;
+    
+    .banner4 {
+        background-size: 2060px !important;
+        background-position: 2000px !important;
     }
-}
-
-@media (max-height: 720px) {
 
     .banner-overlay h1 {
-        top: 150px;
+        top: 200px;
     }
 
-    iframe {
-        width: 80%;
-        height: 200px;
-    }
-}
-
-@media (max-height: 700px) {
-
-    .about-container {
-        height: 175vh;
-    }
-
-    .about-text {
-        width: 100%;
-    }
-
-    .about-banner {
-        height: 175vh;
-    }
-
-    .about-banner-overlay {
-        height: 175vh;
-    }
-
-    .about-filler img {
-        top: -40px;
+    .card-container {
+        width: 85%;
     }
 }
-

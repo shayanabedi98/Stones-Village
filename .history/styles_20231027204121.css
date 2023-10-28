@@ -578,11 +578,10 @@ footer.not-home {
 
 .about-content {
     display: grid;
-    grid-template-row: 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     width: 80%;
-    margin-top: 150px;
 }
 
 .about-text {

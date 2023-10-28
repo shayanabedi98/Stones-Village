@@ -166,7 +166,7 @@ hr {
 .navbar-menu-mobile ul {
     padding: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
+    width: 95%;
     height: 180px;
     border-radius: 5px;
 }
@@ -189,11 +189,12 @@ hr {
     justify-items: center;
     align-items: center;
     width: 100%; 
+    background-color: #0000003f;
 }
 
 .navbar-links-mobile #instagram, .navbar-links-mobile #tel {
     box-shadow: 0 10px 20px rgba(0,0,0,0.50), 0 6px 6px rgba(0,0,0,0.50);
-    width: 95%;
+    width: 90%;
     height: 50px;
     background-color: rgba(0, 0, 0,0.5);
 }
@@ -515,8 +516,6 @@ iframe {
     height: 40px;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    color: #000000;
-    background-color: #bebebe;
     cursor: pointer;
     border: none;
     border-radius: 3px;
@@ -573,16 +572,17 @@ footer.not-home {
 
 .about-banner-overlay h1 {
     font-weight: 100;
+    position: relative;
     letter-spacing: 4px;
+    top: 100px;
 }
 
 .about-content {
     display: grid;
-    grid-template-row: 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     width: 80%;
-    margin-top: 150px;
 }
 
 .about-text {
