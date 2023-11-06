@@ -674,13 +674,7 @@ footer.contact {
 }
 
 .mini-nav a button:hover {
-    background-color: #fedc74;
-    transition: 0.2s;
-}
-
-.mini-nav a button:not(:hover) {
-    background-color: #ececec;
-    transition: 0.2s;
+    background-color: #ffd966;
 }
 
 .inventory-showcase {
@@ -731,7 +725,7 @@ footer.contact {
 .item p, .item-p p {
     position: relative;
     font-size: 20px;
-    background-color: #ffda6c;
+    background-color: #E0B739;
     width: 110px;
     text-align: center;
     color: #000000;
@@ -869,23 +863,6 @@ footer.inventory {
     background-position: -50px -80px;
 }
 
-.svp-17 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-17.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-18 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-18.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-19 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-19.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
 
 /* ----------------------------------- */
 

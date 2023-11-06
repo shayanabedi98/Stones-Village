@@ -627,7 +627,7 @@ footer.contact {
 }
 
 .inventory-body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(224, 224, 224);
 }
 
 .inventory-container {
@@ -654,13 +654,13 @@ footer.contact {
 .mini-nav {
     position: -webkit-sticky;
     position: sticky;
-    top: 35px;
+    top: 50px;
     z-index: 2;
 }
 
 .mini-nav a button {
     text-decoration: none;
-    background-color: #ececec;
+    background-color: #FFFFFE;
     border: none;
     font-family: 'Raleway', sans-serif;
     height: 40px;
@@ -670,17 +670,7 @@ footer.contact {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 3px;
     font-size: 18px;
-    color: black;
-}
 
-.mini-nav a button:hover {
-    background-color: #fedc74;
-    transition: 0.2s;
-}
-
-.mini-nav a button:not(:hover) {
-    background-color: #ececec;
-    transition: 0.2s;
 }
 
 .inventory-showcase {
@@ -694,58 +684,45 @@ footer.contact {
     letter-spacing: 3px;
 }
 
-.marble, .onyx, .granite, .quartz, .porcelain {
+.marble, .onyx, .porcelain, .granite, .quartz {
     display: grid;
     gap: 50px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.item, .item-p {
+.item {
     cursor: pointer;
+    height: 300px;
+    width: 400px;
     background-repeat: no-repeat;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 3px 3px 0px;
     border-radius: 3px;
     margin: 20px 0;
+    display: flex;
 }
 
-.item {
-    height: 300px;
-    width: 400px;
-}
-
-.item-p {
-    height: 400px;
-    width: 400px;
-}
-
-.item:hover, .item-p:hover {
+.item:hover {
     box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 5px 0px;
     transition: 0.4s;
 }
 
-.item:not(:hover), .item-p:not(:hover) {
+.item:not(:hover) {
     box-shadow: rgba(0, 0, 0, 0.45) 0px 3px 3px 0px;
     transition: 0.4s;
 }
 
-.item p, .item-p p {
+.item p {
     position: relative;
+    top: 256px;
     font-size: 20px;
-    background-color: #ffda6c;
-    width: 110px;
+    background-color:  rgb(224, 224, 224);
+    width: 100px;
+    border-radius: 2px;
     text-align: center;
+    font-weight: 500;
     color: #000000;
     z-index: 0;
     height: 24px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.item p {
-    top: 256px;
-}
-
-.item-p p {
-    top: 356px;
 }
 
 footer.inventory {
@@ -774,120 +751,10 @@ footer.inventory {
 }
 
 .svp-01 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-01.jpg');
+    background: url('./resources/inventory/inventory-jpg/Marble/SVM-01.jpg');
     background-size: 720px;
-    background-position: -50px -80px;
+    background-position: -180px -180px;
 }
-
-.svp-02 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-02.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-03 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-03.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-04 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-04.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-05 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-05.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-06 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-06.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-07 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-07.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-08 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-08.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-09 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-09.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-10 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-10.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-11 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-11.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-12 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-12.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-13 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-13.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-14 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-14.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-15 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-15.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-16 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-16.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-17 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-17.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-18 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-18.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-.svp-19 {
-    background: url('./resources/inventory/inventory-jpg/Porcelain/SVP-19.jpg');
-    background-size: 720px;
-    background-position: -50px -80px;
-}
-
-/* ----------------------------------- */
 
 .svm-01 {
     background: url('./resources/inventory/inventory-jpg/Marble/SVM-01.jpg');
@@ -912,8 +779,6 @@ footer.inventory {
     background-size: 800px;
     background-position: -100px -170px;
 }
-
-/* ------------------------------------ */
 
 .svo-01 {
     background: url('./resources/inventory/inventory-jpg/Onyx/SVO-01.jpg');
@@ -1148,8 +1013,6 @@ footer.inventory {
     background-size: 780px;
     background-position: -170px -170px;
 }
-
-/* -------------------------------------- */
 
 .svq-01 {
     background: url('./resources/inventory/inventory-jpg/Quartz/SVQ-01.jpg');
