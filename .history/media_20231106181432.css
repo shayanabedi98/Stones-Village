@@ -454,7 +454,8 @@
     .item-p {
         width: 320px;
         height: 320px;
-        background-size: 610px;
+        background-size: 620px;
+        background-position: -50px -80px;
     }
 
     .item p {
