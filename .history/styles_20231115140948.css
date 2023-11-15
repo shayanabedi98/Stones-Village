@@ -654,9 +654,9 @@ footer.contact {
 
 .inventory-text p {
     line-height: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     text-align: left;
-}
+    font-family: 'Raleway', sans-serif;
 
 .mini-nav {
     position: -webkit-sticky;
