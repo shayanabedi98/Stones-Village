@@ -243,7 +243,7 @@ hr {
 .banner-overlay {
     box-shadow: 0 0 10px 0 black;
     display: grid;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.9);
     grid-template-rows: 0.1fr 0.4fr 1.5fr;
     justify-items: center;
     align-items: center;

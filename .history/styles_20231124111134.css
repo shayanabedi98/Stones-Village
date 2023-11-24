@@ -25,15 +25,10 @@ hr {
 
 .hidden {
     opacity: 0;
-
-    filter: blur(2px);
-    transition: all 1s;
 }
 
 .show {
     opacity: 1;
-    filter: blur(0px);
-    transform: translateY(0px);
 }
 
 .navbar {
@@ -224,9 +219,8 @@ hr {
 
 .banner2 {
     background-size: 2560px !important;
-    background-position: 4890px !important;
+    background-position: 4950px !important;
 }
-
 
 .banner3 {
     background-size: 2000px !important;
@@ -234,16 +228,13 @@ hr {
 }
 
 .banner4 {
-    background-size: 2960px !important;
-    background-position: -150px -850px !important;
+    background-size: 2560px !important;
+    background-position: 4890px !important;
 }
-
-
 
 .banner-overlay {
     box-shadow: 0 0 10px 0 black;
     display: grid;
-    background-color: rgba(0, 0, 0, 0.15);
     grid-template-rows: 0.1fr 0.4fr 1.5fr;
     justify-items: center;
     align-items: center;

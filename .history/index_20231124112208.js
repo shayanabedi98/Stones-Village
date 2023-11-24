@@ -96,6 +96,7 @@ const bannerImgChanger = () => {
     banner.style.background = `url(${bannerImg[bannerImgIndex]})`;
 
     
+    
     if (bannerImgIndex === 0) {
         banner.classList.remove('banner2', 'banner3', 'banner4');
         banner.classList.add('banner1');

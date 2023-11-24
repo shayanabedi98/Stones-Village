@@ -1,5 +1,5 @@
 const banner = document.querySelector('.banner1');
-const bannerImg = ['./resources/bg11.jpg', './resources/bg10.jpg', './resources/bg9.jpg', './resources/bg8.jpg'];
+const bannerImg = ['./resources/bg11.jpg', './resources/bg8.jpg', './resources/bg9.jpg', './resources/bg10.jpg'];
 let bannerImgIndex = 0;
 const logoName = document.querySelector('#logo-name');
 const logoCube = document.querySelector('#logo-cube');
@@ -14,17 +14,6 @@ const closeMobileMenu = document.querySelector('.close-navbar-menu-mobile');
 const header1 = document.querySelector('.banner-overlay h1');
 const header2 = document.querySelector('.banner-overlay p');
 const hiddenElements = document.querySelectorAll('.hidden')
-
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('show');
-        } else {
-            entry.target.classList.remove('show');
-        }
-    });
-});
-hiddenElements.forEach((el) => observer.observe(el));
 
 function adjustMenuDisplay() {
     if (window.innerWidth >= 901) {
@@ -95,6 +84,7 @@ const bannerImgChanger = () => {
     bannerImgIndex = (bannerImgIndex + 1) % bannerImg.length;
     banner.style.background = `url(${bannerImg[bannerImgIndex]})`;
 
+    
     
     if (bannerImgIndex === 0) {
         banner.classList.remove('banner2', 'banner3', 'banner4');

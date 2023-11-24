@@ -252,6 +252,7 @@ hr {
     height: 970px;
     width: 100%;
     top: 0;
+    transition: background-color 0s ease, opacity 1s ease;
 }
 
 .banner-overlay h1 {

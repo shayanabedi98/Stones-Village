@@ -401,7 +401,7 @@
     
     .banner2 {
         background-size: 1700px !important;
-        background-position: -1000px -250px !important;
+        background-position: -1000px -200px !important;
     }
     
     .banner3 {
@@ -410,8 +410,8 @@
     }
     
     .banner4 {
-        background-size: 2060px !important;
-        background-position: -300px -400px !important;
+        background-size: 1660px !important;
+        background-position: -300px -200px !important;
     }
 
     .banner-overlay p {
