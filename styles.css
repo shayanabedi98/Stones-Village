@@ -562,6 +562,15 @@ footer p {
     text-decoration: none;
 }
 
+.emails {
+    text-align: center;
+    color: #282828;
+}
+
+.emails span {
+    color: #6e6e6e;
+}
+
 .contact-form-map-container {
     background-color: #202020;
     color: white;

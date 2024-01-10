@@ -544,6 +544,11 @@
         font-size: 26px;
     }
 
+    .emails h3 {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
     /* About */
 
     .about-container {
